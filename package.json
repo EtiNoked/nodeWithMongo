@@ -1,0 +1,23 @@
+{
+  "name": "nodewithmongo",
+  "version": "1.0.0",
+  "description": "node server with mongoDb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EtiNoked/nodeWithMongo.git"
+  },
+  "keywords": [
+    "node",
+    "mongo"
+  ],
+  "author": "Eti Noked",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EtiNoked/nodeWithMongo/issues"
+  },
+  "homepage": "https://github.com/EtiNoked/nodeWithMongo#readme"
+}
