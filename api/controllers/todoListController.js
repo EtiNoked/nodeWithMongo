@@ -37,7 +37,7 @@ exports.reat_a_task = function(req, res) {
 exports.update_a_task = function(req, res) {
   Task.findOneAndUpdate({_id: req.params.taskId}, req.body, {new: true}, function(err, task) {
     if (err) {
-      res.send(err);
+      res.status(404).send(err);
     }
 
     res.json(task);

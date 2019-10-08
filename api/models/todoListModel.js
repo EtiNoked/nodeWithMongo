@@ -21,4 +21,9 @@ var TaskSchema = new Schema({
   }
 });
 
+TaskSchema.pre('findOneAndUpdate', function(next) {
+  this.options.runValidators = true;
+  next();
+});
+
 module.exports = mongoose.model('Tasks', TaskSchema);
